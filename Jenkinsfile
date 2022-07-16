@@ -6,6 +6,6 @@ node('master')
 	}
     stage('Continuous Build_loans') 
 	{
-    sh label: '', script: 'mvn package'
+    sh 'mvn package'
 	}
 }
